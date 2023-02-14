@@ -4,7 +4,7 @@ public class Recursion {
     static int fact = 1;
 
     public static void main(String[] args) {
-        int no = 5;
+        int no = 1;
         Recursion ob = new Recursion();
         ob.calcFact(no);
         System.out.println("Factorial of "+no+" is "+fact);
